@@ -1,0 +1,51 @@
+
+.serviceForm {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-direction: column;
+    /* border: blue 2px dotted; */
+    width: 100%;
+    margin-bottom: 1em; 
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input {
+    /* border: red 2px dotted; */
+    flex: 1;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.089);
+    border: none;
+    padding: 2px;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid rgb(108, 255, 218);
+}
+
+#submitRequest {
+    background-color: rgb(108, 255, 218);
+    border: none;
+    color: #454646;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 1em 0 2em 0;
+}
+
+#submitRequest:hover {
+    background-color: rgb(76, 190, 162);
+}
+
+.request__delete {
+    background-color: violet;
+    border: none;
+    margin: 1em;
+}
